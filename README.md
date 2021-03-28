@@ -4,8 +4,9 @@
 Plugin para a IDE Eclipse, desenvolvido em Java, para permitir a conversão de modelos de coreografia BPMN 2.0 criados com a ferramenta open-source <a href="http://bpmn.sourceforge.net/">Yaoqiang</a> para a linguagem de descrição de arquitetura pi-ADL. Além disso, através do plugin também é possível testar a ocorrência de deadlocks no modelo criado.
 
 ## 🌟 Funcionalidades
-- [x] Gerar código pi-ADL a partir de modelos BPMN
-- [x] Testar a ocorrência de deadlocks a partir do podelo pi-ADL
+Este é um plugin criado pra realizar duas tarefas distintas:
+1. A primeira tarefa que o programa resolve é a geração de código na linguagem pi-ADL a partir de arquivos .bpmn gerados na plataforma, chamada Yaoqiang, de design de modelos do diagrama de coreografia BPMN 2.0. O programa utiliza o mapeamento de BPMN para pi-ADL utilizando o trabalho de mestrado de Leila de Carvalho Costa do Programa de Pós-Graduação em Ciência da Computação da Universidade Federal da Bahia.
+2. A segunda tarefa que o programa resolve é o teste de ocorrência de deadlocks, incluindo o nome do elemento que ocasionou o deadlock no modelo original BPMN.
 
 ## :floppy_disk: Instalando os plugins necessários
 1. Instale a IDE Eclipse
